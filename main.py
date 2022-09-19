@@ -19,7 +19,9 @@ def my_function():
     age = int(input("Enter your age:"))
     height = int(input("Enter your height:"))
     weight = int(input("Enter your weight:"))
-    wks.append_row([name,lastName,age,height,weight])
+    people = Person(name,lastName,age,height,weight)
+    wks.append_row([people.name,people.lastName,people.age,people.height,people.weight])
+
 
 while 1:
     my_function()
