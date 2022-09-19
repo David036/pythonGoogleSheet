@@ -5,7 +5,6 @@ gc = gspread.service_account()
 sheet = gc.open("UsersTests")
 
 wks = sheet.worksheet("Sheet1")
-# wks_array = wks.get_all_records()
 
 class Person:
     def __init__(self,name,lastName,age,height,weight):
