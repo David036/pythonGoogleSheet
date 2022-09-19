@@ -1,4 +1,3 @@
-import pandas as pd
 import gspread
 
 gc = gspread.service_account()
