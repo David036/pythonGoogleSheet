@@ -18,4 +18,4 @@ def create_user():
 
 
 while 1:
-    my_function()
+    create_user()
